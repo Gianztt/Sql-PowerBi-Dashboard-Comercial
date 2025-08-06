@@ -12,7 +12,7 @@ Este proyecto consiste en la construcción de un dashboard comercial interactivo
 
 - Se creó una base de datos desde cero en PostgreSQL utilizando pgAdmin.
 - Se diseñaron e implementaron las siguientes tablas: `clientes`, `productos`, `ordenes` y `detalles_ordenes`.
-- <img width="1767" height="800" alt="image" src="https://github.com/user-attachments/assets/45a84dda-6674-47e8-9557-b1ff2f4f89ef" />
+<img width="1767" height="800" alt="image" src="https://github.com/user-attachments/assets/45a84dda-6674-47e8-9557-b1ff2f4f89ef" />
 - Se insertaron datos ficticios para simular un entorno comercial realista.
 - Se validó la calidad de los datos mediante queries exploratorias en SQL.
 - Se desarrollaron consultas para calcular métricas clave como ingresos, descuentos, márgenes y rentabilidad por región y categoría.
@@ -29,17 +29,17 @@ Este proyecto consiste en la construcción de un dashboard comercial interactivo
 ### 3. Creación del dashboard en Power BI
 
 - Se verificaron y ajustaron las relaciones entre tablas utilizando claves primarias y foráneas.
-- <img width="1340" height="616" alt="image" src="https://github.com/user-attachments/assets/93131e17-4573-463d-9def-c3c71550349d" />
+<img width="1340" height="616" alt="image" src="https://github.com/user-attachments/assets/93131e17-4573-463d-9def-c3c71550349d" />
 - Se crearon medidas DAX personalizadas para calcular KPIs como:
   - Total de ingresos
-  - <img width="1793" height="513" alt="image" src="https://github.com/user-attachments/assets/9813cbc1-5d29-4449-9946-fde267186689" />
+<img width="1548" height="122" alt="image" src="https://github.com/user-attachments/assets/d9435494-a14e-40a1-b428-daf769935cef" />
   - Margen promedio
   - Productos vendidos
   - Porcentaje de descuento promedio
   - Ganancia por pedido
 - Se diseñó el dashboard con los siguientes elementos:
   - Segmentadores por **Categoría** y **Segmento de cliente**
-  - Gráfico de barras con ingresos por Región
+  - Gráfico de barras con ingresos por **Región**
   - Gráfico de líneas con ingresos mensuales y línea de tendencia
   - KPIs destacados en tarjetas
   - Título y layout uniforme con tipografía coherente
