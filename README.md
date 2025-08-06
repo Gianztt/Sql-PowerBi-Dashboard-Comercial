@@ -4,15 +4,13 @@
 
 Este proyecto consiste en la construcción de un dashboard comercial interactivo con datos extraidos desde postgresql
 
-----
-
 ## Paso a paso del proyecto
 
 ### 1. Desarrollo de la base de datos (PostgreSQL)
 
 - Se creó una base de datos desde cero en PostgreSQL utilizando pgAdmin.
 - Se diseñaron e implementaron las siguientes tablas: `clientes`, `productos`, `ordenes` y `detalles_ordenes`.
-<img width="1767" height="800" alt="image" src="https://github.com/user-attachments/assets/45a84dda-6674-47e8-9557-b1ff2f4f89ef" />
+-<img width="1767" height="800" alt="image" src="https://github.com/user-attachments/assets/45a84dda-6674-47e8-9557-b1ff2f4f89ef" />
 - Se insertaron datos ficticios para simular un entorno comercial realista.
 - Se validó la calidad de los datos mediante queries exploratorias en SQL.
 - Se desarrollaron consultas para calcular métricas clave como ingresos, descuentos, márgenes y rentabilidad por región y categoría.
@@ -29,10 +27,10 @@ Este proyecto consiste en la construcción de un dashboard comercial interactivo
 ### 3. Creación del dashboard en Power BI
 
 - Se verificaron y ajustaron las relaciones entre tablas utilizando claves primarias y foráneas.
-<img width="1340" height="616" alt="image" src="https://github.com/user-attachments/assets/93131e17-4573-463d-9def-c3c71550349d" />
+-<img width="1340" height="616" alt="image" src="https://github.com/user-attachments/assets/93131e17-4573-463d-9def-c3c71550349d" />
 - Se crearon medidas DAX personalizadas para calcular KPIs como:
   - Total de ingresos
-<img width="1548" height="122" alt="image" src="https://github.com/user-attachments/assets/d9435494-a14e-40a1-b428-daf769935cef" />
+  -<img width="1548" height="122" alt="image" src="https://github.com/user-attachments/assets/d9435494-a14e-40a1-b428-daf769935cef" />
   - Margen promedio
   - Productos vendidos
   - Porcentaje de descuento promedio
@@ -45,3 +43,11 @@ Este proyecto consiste en la construcción de un dashboard comercial interactivo
   - Título y layout uniforme con tipografía coherente
   
 <img width="1325" height="762" alt="image" src="https://github.com/user-attachments/assets/c106ac64-feb6-4207-b937-8d0bb837da94" />
+
+## Principales Insights del Dashboard
+
+-Electrónica representa el 75% de los ingresos totales con solo un 5% del total de unidades vendidas, lo que sugiere un alto margen de ganancia por unidad y baja rotación de productos.
+-El segmento Corporativo genera el 83% de los ingresos, pero representa solo el 7% del volumen de ventas, lo que indica que compra productos de alto valor, con poca frecuencia.
+-Las regiones del Biobío y Los Lagos muestran un crecimiento lineal sostenido en ingresos mensuales, lo que sugiere una expansión comercial saludable.
+-La región de Valparaíso, por el contrario, presenta un decrecimiento lineal en sus ingresos, lo que podría señalar problemas de retención de clientes o saturación del mercado.
+-A pesar de vender el 59% del total de unidades, Valparaíso solo aporta un 6% de los ingresos, lo que indica una alta rotación de productos de bajo margen, posiblemente productos básicos o con fuertes descuentos.
