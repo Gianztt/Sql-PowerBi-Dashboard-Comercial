@@ -90,16 +90,16 @@ Ganancia_por_Pedido = [Ganancia_Total] / (DISTINCTCOUNT(ventas[id_venta]))
 
 ---
 
+## 📁 Archivos incluidos
+
+- `DashboardVentas.pbix` — Archivo Power BI con el dashboard final.
+- `dump_dataset_comercial.sql` — Dump completo de la base de datos PostgreSQL.
+- `querys_dataset_comercial.sql` — Script SQL con creación de tablas, inserciones y consultas para KPIs.
+
+---
+
 ## 🛠️ Herramientas
 
 - PostgreSQL con interfaz gráfica pgAdmin
 - Power BI
 - Controlador ODBC psqlODBC
-
----
-
-## 📁 Datos y Archivos en el Repositorio
-
-- `DashboardVentas.pbix` — Archivo Power BI con el dashboard final.
-- `dump_dataset_comercial.sql` — Dump completo de la base de datos PostgreSQL.
-- `querys_dataset_comercial.sql` — Script SQL con creación de tablas, inserciones y consultas para KPIs.
